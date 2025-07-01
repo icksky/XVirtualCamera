@@ -35,6 +35,7 @@ class VirtualCameraWs : IHook {
     override fun getName(): String = "WhatsApp可用的虚拟摄像头模块"
     override fun getSupportedPackages() = listOf(
         "com.whatsapp",
+        "com.tencent.mm",
         )
 
     override fun init(cl: ClassLoader?) {
